@@ -52,9 +52,11 @@ export default defineConfig({
               type: 'image/png',
             },
             {
-              src: 'icon.svg',
+              // src: 'icon.svg',
+              src: 'img.png',
               sizes: '32x32',
-              type: 'image/svg',
+              // type: 'image/svg',
+              type: 'image/png',
               purpose: 'any maskable',
             },
           ],
